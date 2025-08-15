@@ -10,7 +10,10 @@ CREATE TABLE IF NOT EXISTS donors (
     name VARCHAR(100),
     age INT,
     blood_group VARCHAR(10),
-    location VARCHAR(100)
+    location VARCHAR(100),
+    phone VARCHAR(15),
+    email VARCHAR(100),
+    gender VARCHAR(10)
 );
 
 -- STEP 4: Create Donation History table
